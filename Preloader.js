@@ -26,7 +26,6 @@ Game.Preloader.prototype = {
     this.load.image('titlescreen', 'assets/titlescreen.png');
     this.load.image('button', 'assets/button.png');
 
-
   },
 
   create: function() {
