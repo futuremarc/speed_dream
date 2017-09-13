@@ -20,6 +20,11 @@ Game.Preloader.prototype = {
 
 
     //LOAD ALL ASSETS HERE
+    
+    this.load.tilemap('map','assets/level1.csv');
+    this.load.image('tileset','assets/tileset.png');
+    this.load.image('titlescreen', 'assets/titlescreen.png');
+    this.load.image('button', 'assets/button.png');
 
 
   },
@@ -27,7 +32,7 @@ Game.Preloader.prototype = {
   create: function() {
 
 
-    this.state.start('Level1');
+    this.state.start('MainMenu');
 
   }
 }
