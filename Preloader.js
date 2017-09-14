@@ -26,7 +26,7 @@ Game.Preloader.prototype = {
     this.load.image('tileset','assets/tileset.png');
     this.load.image('titlescreen', 'assets/titlescreen.png');
     this.load.image('button', 'assets/button.png');
-    this.load.image('level2_background','assets/debug-grid-1920x1920.png');
+    this.load.image('level2_background','assets/town-map.jpg');
     this.load.image('player','assets/link.png');
 
   },
