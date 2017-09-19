@@ -21,13 +21,18 @@ Game.Preloader.prototype = {
 
 
     //LOAD ALL ASSETS HERE
-    
-    this.load.tilemap('map','assets/level1.csv');
-    this.load.image('tileset','assets/tileset.png');
+
+    this.load.tilemap('map', 'assets/level1.csv');
+    this.load.image('tileset', 'assets/tileset.png');
     this.load.image('titlescreen', 'assets/titlescreen.png');
     this.load.image('button', 'assets/button.png');
-    this.load.image('level2_background','assets/town-map.jpg');
-    this.load.image('player','assets/link.png');
+    this.load.image('town-map', 'assets/town-map.jpg');
+    this.load.image('road-bg', 'assets/road-bg.jpg');
+
+
+    this.load.image('player', 'assets/link.png');
+    this.load.image('racer', 'assets/red-car.png');
+    this.load.image('racer2', 'assets/white-car.png');
 
   },
 

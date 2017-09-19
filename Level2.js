@@ -52,7 +52,7 @@ Game.Level2.prototype = {
 
     create: function(game) {
 
-        this.add.tileSprite(0, 0, 1920, 1920, 'level2_background');
+        this.add.tileSprite(0, 0, 1920, 1920, 'road-bg');
 
         this.world.setBounds(0, 0, 1920, 1920);
 
