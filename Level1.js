@@ -79,7 +79,7 @@ Game.Level1.prototype = {
 
   update: function() {
 
-    this.road.tilePosition.x -= 10;
+    this.road.tilePosition.x -= 20;
 
     this.racer.body.setZeroVelocity();
 
